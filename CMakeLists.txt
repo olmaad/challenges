@@ -4,3 +4,4 @@ project(HackerRank)
 
 add_subdirectory(TravelAroundTheWorld)
 add_subdirectory(FraudulentActivityNotifications)
+add_subdirectory(TheGridSearch)
