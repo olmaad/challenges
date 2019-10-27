@@ -10,7 +10,6 @@
 
 using namespace std;
 
-// Complete the gridSearch function below.
 bool searchNextLine(size_t expectedPos, vector<string>& G, int gIt, vector<string>& P, int pIt)
 {
 	if (pIt >= P.size())
