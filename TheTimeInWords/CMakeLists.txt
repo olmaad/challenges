@@ -3,3 +3,5 @@ configure_file(tests/testcase1.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase1.t
 configure_file(tests/testcase2.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase2.txt COPYONLY)
 
 add_executable(TheTimeInWords src/main.cpp)
+
+set_property(TARGET TheTimeInWords PROPERTY FOLDER "Algorithms/Implementation")

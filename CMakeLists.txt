@@ -1,4 +1,6 @@
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 3.2)
+
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 project(HackerRank)
 
@@ -17,3 +19,4 @@ add_subdirectory(SherlockAndTheValidString)
 add_subdirectory(SherlockAndAnagrams)
 add_subdirectory(CppVariadics)
 add_subdirectory(MessagesOrder)
+add_subdirectory(CppClassTemplateSpecialization)

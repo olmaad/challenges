@@ -5,3 +5,5 @@ configure_file(tests/testcase3.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase3.t
 configure_file(tests/testcase6.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase6.txt COPYONLY)
 
 add_executable(TravelAroundTheWorld src/main.cpp)
+
+set_property(TARGET TravelAroundTheWorld PROPERTY FOLDER "Algorithms/DynamicProgramming")
