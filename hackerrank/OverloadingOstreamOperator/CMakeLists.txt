@@ -1,3 +1,3 @@
 add_executable(OverloadingOstreamOperator src/main.cpp)
 
-set_property(TARGET OverloadingOstreamOperator PROPERTY FOLDER "HackerRank/Cpp/Debugging")
+set_property(TARGET OverloadingOstreamOperator PROPERTY FOLDER "hackerrank/Cpp/Debugging")

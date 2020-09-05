@@ -4,4 +4,4 @@ configure_file(tests/testcase2.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase2.t
 
 add_executable(TheTimeInWords src/main.cpp)
 
-set_property(TARGET TheTimeInWords PROPERTY FOLDER "HackerRank/Algorithms/Implementation")
+set_property(TARGET TheTimeInWords PROPERTY FOLDER "hackerrank/Algorithms/Implementation")

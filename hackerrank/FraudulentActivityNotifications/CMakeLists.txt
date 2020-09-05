@@ -2,4 +2,4 @@ configure_file(tests/mytestcase0.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/mytestcas
 
 add_executable(FraudulentActivityNotifications src/main.cpp)
 
-set_property(TARGET FraudulentActivityNotifications PROPERTY FOLDER "HackerRank/Algorithms/Sorting")
+set_property(TARGET FraudulentActivityNotifications PROPERTY FOLDER "hackerrank/Algorithms/Sorting")

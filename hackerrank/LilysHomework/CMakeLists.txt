@@ -4,4 +4,4 @@ configure_file(tests/testcase2.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase2.t
 
 add_executable(LilysHomework src/main.cpp)
 
-set_property(TARGET LilysHomework PROPERTY FOLDER "HackerRank/Algorithms/Sorting")
+set_property(TARGET LilysHomework PROPERTY FOLDER "hackerrank/Algorithms/Sorting")

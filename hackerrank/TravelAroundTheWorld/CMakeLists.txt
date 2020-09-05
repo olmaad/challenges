@@ -6,4 +6,4 @@ configure_file(tests/testcase6.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase6.t
 
 add_executable(TravelAroundTheWorld src/main.cpp)
 
-set_property(TARGET TravelAroundTheWorld PROPERTY FOLDER "HackerRank/Algorithms/DynamicProgramming")
+set_property(TARGET TravelAroundTheWorld PROPERTY FOLDER "hackerrank/Algorithms/DynamicProgramming")

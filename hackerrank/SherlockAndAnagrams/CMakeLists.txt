@@ -4,4 +4,4 @@ configure_file(tests/testcase2.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase2.t
 
 add_executable(SherlockAndAnagrams src/main.cpp)
 
-set_property(TARGET SherlockAndAnagrams PROPERTY FOLDER "HackerRank/Algorithms/Strings")
+set_property(TARGET SherlockAndAnagrams PROPERTY FOLDER "hackerrank/Algorithms/Strings")

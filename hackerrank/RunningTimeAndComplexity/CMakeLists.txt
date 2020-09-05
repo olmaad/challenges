@@ -3,4 +3,4 @@ configure_file(tests/testcase5.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase5.t
 
 add_executable(RunningTimeAndComplexity src/main.cpp)
 
-set_property(TARGET RunningTimeAndComplexity PROPERTY FOLDER "HackerRank/Tutorials/30DaysOfCode")
+set_property(TARGET RunningTimeAndComplexity PROPERTY FOLDER "hackerrank/Tutorials/30DaysOfCode")

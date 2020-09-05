@@ -4,5 +4,9 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 project(Challenges)
 
-add_subdirectory(HackerRank)
+include_directories("include")
+
+add_subdirectory("include")
+add_subdirectory(hackerrank)
 add_subdirectory(ideone)
+add_subdirectory(solution-templates)

@@ -2,4 +2,4 @@ configure_file(tests/testcase0.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase0.t
 
 add_executable(CppVariadics src/main.cpp)
 
-set_property(TARGET CppVariadics PROPERTY FOLDER "HackerRank/Cpp/OtherConcepts")
+set_property(TARGET CppVariadics PROPERTY FOLDER "hackerrank/Cpp/OtherConcepts")

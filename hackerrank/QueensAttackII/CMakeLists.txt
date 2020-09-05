@@ -3,4 +3,4 @@ configure_file(tests/testcase1.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase1.t
 
 add_executable(QueensAttackII src/main.cpp)
 
-set_property(TARGET QueensAttackII PROPERTY FOLDER "HackerRank/Algorithms/Implementation")
+set_property(TARGET QueensAttackII PROPERTY FOLDER "hackerrank/Algorithms/Implementation")

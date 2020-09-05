@@ -5,4 +5,4 @@ configure_file(tests/testcase8.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase8.t
 
 add_executable(BitArray src/main.cpp)
 
-set_property(TARGET BitArray PROPERTY FOLDER "HackerRank/Cpp/OtherConcepts")
+set_property(TARGET BitArray PROPERTY FOLDER "hackerrank/Cpp/OtherConcepts")

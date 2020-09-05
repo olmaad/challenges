@@ -3,4 +3,4 @@ configure_file(tests/testcase1.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase1.t
 
 add_executable(AttendingWorkshops src/main.cpp)
 
-set_property(TARGET AttendingWorkshops PROPERTY FOLDER "HackerRank/Cpp/OtherConcepts")
+set_property(TARGET AttendingWorkshops PROPERTY FOLDER "hackerrank/Cpp/OtherConcepts")

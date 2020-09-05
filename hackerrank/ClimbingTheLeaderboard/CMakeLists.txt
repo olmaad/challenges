@@ -3,4 +3,4 @@ configure_file(tests/testcase1.txt ${CMAKE_CURRENT_BINARY_DIR}/tests/testcase1.t
 
 add_executable(ClimbingTheLeaderboard src/main.cpp)
 
-set_property(TARGET ClimbingTheLeaderboard PROPERTY FOLDER "HackerRank/Algorithms/Implementation")
+set_property(TARGET ClimbingTheLeaderboard PROPERTY FOLDER "hackerrank/Algorithms/Implementation")
